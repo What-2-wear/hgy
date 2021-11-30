@@ -1,0 +1,29 @@
+Mean: 128191.17636267834
+
+최고 파라미터 : {'max_depth': 20, 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 500}
+
+ 0   id             21613 non-null  int64  Mean: 127514.00730665463 //빼야됨
+ 1   date           21613 non-null  object  Mean: 129152.92649612627 //넣어야됨 8
+ 2   bedrooms       21613 non-null  int64  Mean: 128095.7768740325 //보류
+ 3   bathrooms      21613 non-null  float64  Mean: 128089.82874886312 //보류
+ 4   sqft_living    21613 non-null  int64  Mean: 132760.75156617974 //넣어야됨 >>필수5
+ 5   sqft_lot       21613 non-null  int64   Mean: 128731.14229079848 //넣어야됨
+ 6   floors         21613 non-null  float64  Mean: 128144.97097796854 //보류
+ 7   waterfront     21613 non-null  int64  Mean: 134795.8047180365 //넣어야됨 >>필수3
+ 8   view           21613 non-null  int64  Mean: 130302.95356756655 //넣어야됨 >> 필수6
+ 9  condition      21613 non-null  int64  Mean: 128918.12769745065 //넣어야됨
+ 10  grade          21613 non-null  int64  Mean: 133309.4856395745 //넣어야됨 >> 필수4
+ 11  sqft_above     21613 non-null  int64  Mean: 128429.58766623535 //애매함(넣는쪽으로)
+ 12  sqft_basement  21613 non-null  int64  Mean: 128112.34535097936 //보류
+ 13  yr_built       21613 non-null  int64  Mean: 127918.50039171889 //빼야됨
+ 14  yr_renovated   21613 non-null  int64  Mean: 128538.99827017603 //넣어야됨
+ 15  zipcode        21613 non-null  int64  Mean: 129723.21969208881 //넣어야됨 7
+ 16  lat            21613 non-null  float64  Mean: 151463.23412872595 //넣어야됨 >> 필수1
+ 17  long           21613 non-null  float64  Mean: 138961.10878983585 //넣어야됨 >>필수2
+ 18  sqft_living15  21613 non-null  int64  Mean: 128859.52561270678 //넣어야됨
+ 19  sqft_lot15     21613 non-null  int64  Mean: 128396.98203994361 //애매함(넣는쪽으로)
+
+lat_long_div !!!!!!!!!!
+
+11/27
+{'max_depth': 25, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 700}
